@@ -1,7 +1,9 @@
+name: cling-environment
 channels:
-  - conda-forge
   - QuantStack
+  - conda-forge
 dependencies:
+  - python
   - cling
   - xeus-cling
   - notebook
