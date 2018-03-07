@@ -1,4 +1,3 @@
-name: cling-environment
 channels:
   - conda-forge
   - QuantStack
