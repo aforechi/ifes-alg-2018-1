@@ -1,0 +1,8 @@
+name: cling-environment
+channels:
+  - conda-forge
+  - QuantStack
+dependencies:
+  - cling
+  - xeus-cling
+  - notebook
