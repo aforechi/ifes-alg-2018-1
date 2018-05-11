@@ -5,7 +5,8 @@ channels:
 dependencies:
   - python
   - cling=0.5
-  - xeus-cling=0.3
+  - cling-patches=1
+  - xeus-cling=0.2.4
   - notebook=5.4.0
   - xwidgets=0.8.0
   - widgetsnbextension=3.1.4
