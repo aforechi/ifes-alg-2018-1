@@ -1,7 +1,7 @@
 name: cling-environment
 channels:
-  - QuantStack
   - conda-forge
+  - QuantStack
 dependencies:
   - python
   - cling
