@@ -4,7 +4,7 @@ channels:
   - QuantStack
 dependencies:
   - gcc-7
-  - python=3.4
+  - python
   - cling
   - cling-patches
   - xeus-cling
