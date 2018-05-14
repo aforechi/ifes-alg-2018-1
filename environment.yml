@@ -3,6 +3,6 @@ channels:
   - QuantStack
   - conda-forge
 dependencies:
-  - gcc7-7
+  - gcc-7
   - xeus-cling=0.4.3
   - notebook
