@@ -84,7 +84,9 @@ typedef struct{
 
 tMatrizFloat produtoMatrizFloat(const tMatrizFloat & matriz1, const tMatrizFloat & matriz2){
     tMatrizFloat produto;
-    if( matriz1.nColunas == matriz2.nLinhas ){         
+    produto.inicializa(0, 0);         
+    if( matriz1.nColunas == matriz2.nLinhas ){
+		produto.inicializa(matriz1.nLinhas, matriz2.nColunas);         
         for(int i=0; i < matriz1.nLinhas; i++){
             for(int j=0; j < matriz2.nColunas; j++){ 
                 produto.valores[i][j]=0;
@@ -93,10 +95,6 @@ tMatrizFloat produtoMatrizFloat(const tMatrizFloat & matriz1, const tMatrizFloat
                 } 
             }
         }
-        produto.nLinhas=matriz1.nLinhas;
-        produto.nColunas=matriz2.nColunas; 
-    }else{
-        produto.nLinhas=produto.nColunas=0;
     }
     return produto; 
 }
