@@ -38,7 +38,7 @@ typedef struct{
     }
     
     // Operação Analisadora
-    int acessaMatriz(int linha, int coluna){
+    float acessaMatriz(int linha, int coluna){
         if(( (linha >= 0) && (linha < nLinhas) ) && 
            ( (coluna>= 0) && (coluna< nColunas) ))
             return valores[linha][coluna];
